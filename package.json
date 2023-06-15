@@ -1,0 +1,23 @@
+{
+  "name": "base_mern_theme",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamienFoulon/base_mern_theme.git"
+  },
+  "author": "Damien Foulon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamienFoulon/base_mern_theme/issues"
+  },
+  "homepage": "https://github.com/DamienFoulon/base_mern_theme#readme",
+  "dependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
